@@ -7,8 +7,8 @@ const removeRow = document.querySelector('.remove-row');
 const appendColumn = document.querySelector('.append-column');
 const removeColumn = document.querySelector('.remove-column');
 
-const max = 10;
 const min = 2;
+const max = 10;
 
 function updateButtonStates() {
   const trs = document.querySelectorAll('tr');
